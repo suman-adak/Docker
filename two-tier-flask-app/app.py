@@ -25,6 +25,7 @@ def init_db():
         mysql.connection.commit()  
         cur.close()
 
+
 @app.route('/')
 def hello():
     cur = mysql.connection.cursor()
