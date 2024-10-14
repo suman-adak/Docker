@@ -1,4 +1,1 @@
-CREATE TABLE messages (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    message TEXT
-);
+CREATE TABLE messages ( id INT AUTO_INCREMENT PRIMARY KEY, message TEXT );
