@@ -7,7 +7,7 @@ DOCKER_COMPOSE := docker-compose
 # Define Docker compose service name
 SERVICE_NAME := web
 
-# Build target
+# Build targett
 build:
 ifeq ($(OS),Linux)
 	@echo "Building for Linux"
